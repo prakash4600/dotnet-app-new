@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": "AKSCluster"
+    },
+    "location": {
+      "value": "Central US"
+    },
+    "dnsPrefix": {
+      "value": "FQDN"
+    },
+    "osDiskSizeGB": {
+      "value": 30
+    },
+    "agentCount": {
+      "value": 3
+    },
+    "agentVMSize": {
+      "value": "standard_d2s_v3"
+    },
+    "linuxAdminUsername": {
+      "value": "bhanu"
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDR7X63caF8boOT6LTcbVHI+1TjACPfZZE8BllnWWGPem3H/OXT3ALrW9ItWE7PxUg1J460+pUjXTKDiLa5lGrLnaHKe7LiQN9ZwO4rTssJc2tkqz2iZX75rtJWEFzdZ+XEOGHGAHaPxgBJGfvs8/nXsBg5Szrug6V5XT0WVDz/5m/SoMFn0X8vnsL3+W2NUSsRm9p+ZKfjShkdXP84G/YXyM4g6svXM8/+/5wfbHY5qEKpff+0FqFZQD70ey7u5+/YyXojOU58h6hBSBgPoKPh0R8jQmNM50QpX7UIepFswaPisSQn8diShYYzqn2P2DUWXEyhOhbLbjwEhjfHtMrQVi2W6Plf5Obuu1z2EEjJ5gxgEpCbsvSILi/4CeiVwW8ZKzZIaC+EgwV07/pi0Y5RHMwjB6WeVi7Ty3kA7djzyUpB0YgMadZOYClBRJMIdNDezjUdIvmijhUlHGDpsD/EJMWz7/+qFwGIfu3zWL5ghqeJCHg4v5k0VuJzOpjIvaE= generated-by-azure"
+    }
+  }
+}
